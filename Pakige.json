@@ -1,1 +1,1 @@
-{"name":"fareed-md","version":"4.0.0","main":"index.js","scripts":{"start":"node index.js"},"dependencies":{"@whiskeysockets/baileys":"^6.7.8","qrcode-terminal":"^0.12.0","pino":"^8.19.0","chalk":"^4.1.2","axios":"^1.7.2","fs-extra":"^11.2.0","@adiwajshing/baileys":"^5.0.0"}}
+{"name":"fareed-md","version":"4.0.0","main":"index.js","scripts":{"start":"node index.js"},"dependencies":{"@whiskeysockets/baileys":"^6.7.8","qrcode-terminal":"^0.12.0","pino":"^8.19.0","chalk":"^4.1.2","axios":"^1.7.2","fs-extra":"^11.2.0"}}

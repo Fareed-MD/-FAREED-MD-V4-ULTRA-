@@ -1,0 +1,1 @@
+module.exports = { name: 'channel', execute: async(sock, msg, args, isOwner, PREFIX, CHANNEL) => { await sock.sendMessage(msg.key.remoteJid, { text: `📢 Hamara Channel Join karo:\n${CHANNEL}\n\n👨‍💻 Project by Fareed Bhatti` }); } }

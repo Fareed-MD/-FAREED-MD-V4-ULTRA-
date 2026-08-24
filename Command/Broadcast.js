@@ -1,0 +1,1 @@
+module.exports = { name: 'kick', execute: async(sock, msg, args, isOwner) => { if(!isOwner) return sock.sendMessage(msg.key.remoteJid, { text: '❌ Only Owner' }); await sock.sendMessage(msg.key.remoteJid, { text: 'Kick command' }); } }

@@ -1,0 +1,1 @@
+module.exports = { name: 'ping', execute: async(sock, msg) => { const start = Date.now(); await sock.sendMessage(msg.key.remoteJid, { text: 'Pinging...' }); const end = Date.now(); await sock.sendMessage(msg.key.remoteJid, { text: `🏓 Pong! ${end-start}ms\n👨‍💻 Project by Fareed Bhatti` }); } }

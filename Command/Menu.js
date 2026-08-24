@@ -18,6 +18,7 @@ const menu = `╭───〔 *FAREED-MD V4 ULTRA* 〕───⬣
 ╰───────────────⬣
 ╭───〔 *Tools* 〕───⬣
 │ ${PREFIX}sticker ${PREFIX}toimg ${PREFIX}weather ${PREFIX}url ${PREFIX}ss
+│ ${PREFIX}ytmp3 ${PREFIX}ytmp4 ${PREFIX}tiktok ${PREFIX}ig ${PREFIX}fb
 ╰───────────────⬣
 ╭───〔 *Group* 〕───⬣
 │ ${PREFIX}kick ${PREFIX}promote ${PREFIX}tagall ${PREFIX}hide

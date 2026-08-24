@@ -1,0 +1,1 @@
+const axios = require('axios'); module.exports = { name: 'weather', execute: async(sock, msg, args) => { const city = args.join(' '); if(!city) return sock.sendMessage(msg.key.remoteJid, { text: 'Usage:.weather Lahore' }); await sock.sendMessage(msg.key.remoteJid, { text: `🌤️ ${city} ka mausam: Coming Soon` }); } }
